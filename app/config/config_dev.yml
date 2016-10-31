@@ -1,6 +1,10 @@
 imports:
     - { resource: config.yml }
 
+parameters:
+    locale: en
+    cache_type: array
+
 framework:
     router:
         resource: "%kernel.root_dir%/config/routing_dev.yml"
